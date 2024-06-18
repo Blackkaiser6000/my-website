@@ -1,0 +1,81 @@
+.about {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust height as needed */
+  background-color: #121212;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.about h2 {
+  font-size: 55px;
+  color: #e34c26; /* Heading color */
+  text-shadow: 5px 5px 5px #000000; /* Example text shadow */
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center container content */
+  max-width: 100%; /* Ensure the container takes full width */
+  padding: 20px;
+  margin-right: 0; /* Remove negative margin for consistency */
+}
+
+.about-me {
+  max-width: 900px;
+  padding: 25px;
+  border: 3px solid #e34c26;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #000000;
+  text-align: center; /* Center text inside .about-me */
+  color: white; /* Text color */
+  margin-bottom: -10px; /* Add space between h2 and .about-me */
+}
+
+.about-me p {
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: justify; /* Justify text for paragraphs */
+}
+
+.about-me p:last-child {
+  margin-bottom: 20px; /* Remove bottom margin for last paragraph */
+}
+
+.about-me a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 40px;
+    margin-left: 0; /* Center heading on smaller screens */
+  }
+
+  .about-me {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .about-me p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .about-me {
+    padding: 15px;
+  }
+
+  .about-me p {
+    font-size: 16px;
+  }
+}

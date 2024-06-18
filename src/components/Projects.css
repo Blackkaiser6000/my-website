@@ -1,0 +1,99 @@
+.projects {
+  padding: 60px 20px;
+  background-color: #121212;
+  text-align: center;
+  color: white;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid #e34c26; /* Border for the project list */
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  max-width: 500px; /* Adjust the max-width to your desired width */
+  max-height: 900px; /* Adjust the max-height to your desired height */
+  overflow-y: auto; /* Add scrollbars if content exceeds max-height */
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+.project-item {
+  margin: 20px;
+  padding: 20px;
+  background-color: #121212;
+  border-radius: 8px;
+  width: 260px;
+  transition: all 0.5s ease-out; /* Only transition transform property */
+  border: 2px solid transparent; /* Transparent border initially */
+  box-shadow: 4px 4px 4px transparent; /* Transparent box-shadow initially */
+}
+
+.project-item:hover {
+  transform: scale(1.04); /* Slightly increase the size to create a pop-up effect */
+  border-color: #e34c26; /* Change border color on hover */
+  box-shadow: 5px 5px 5px #000000; /* Change box-shadow on hover */
+}
+
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.project-item h3 {
+  margin: 10px 0;
+  color: #e34c26;
+}
+
+.project-item p {
+  color: white;
+  font-size: 17px;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 55px;
+  color: #e34c26;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 5px #000000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .projects h2 {
+    font-size: 40px;
+  }
+
+  .project-item {
+    width: 45%; /* Adjust width for better fit on smaller screens */
+    margin: 10px; /* Reduce margin */
+    padding: 15px; /* Reduce padding */
+  }
+
+  .project-item p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 40px 10px;
+  }
+
+  .projects h2 {
+    font-size: 30px;
+  }
+
+  .project-item {
+    width: 100%; /* Full width on very small screens */
+    margin: 10px 0; /* Reduce margin */
+    padding: 10px; /* Reduce padding */
+  }
+
+  .project-item p {
+    font-size: 14px;
+  }
+}

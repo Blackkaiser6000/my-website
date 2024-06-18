@@ -1,0 +1,152 @@
+.skills {
+  padding: 80px;
+  background-color: #121212;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 55px;
+  color: #e34c26;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 5px #000000;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid #ff4800;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #000000;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-item {
+  position: relative;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+  background-color: #121212;
+  transform: scale(1);
+}
+
+.skills-item h3 {
+  margin-top: 10px;
+  color: white;
+}
+
+.skills-item p {
+  margin-top: 5px;
+  font-size: 1.0rem;
+  color: #e34c26;
+}
+
+.skills-item:hover {
+  box-shadow: 5px 5px 5px #000000;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.skills-item.html:hover {
+  border: 2px solid #e34c26;
+}
+
+.skills-item.css:hover {
+  border: 2px solid #264de4;
+}
+
+.skills-item.js:hover {
+  border: 2px solid #f0db4f;
+}
+
+.skills-item.react:hover {
+  border: 2px solid #61dafb;
+}
+
+.skills-item.php:hover {
+  border: 2px solid #787cb5;
+}
+
+.skills-item.database:hover {
+  border: 2px solid #4caf50;
+}
+
+.skills-item.python:hover {
+  border: 2px solid #306998;
+}
+
+.html-icon, .css-icon, .js-icon, .react-icon, .php-icon, .database-icon, .python-icon {
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 40px;
+  }
+
+  .skills h2 {
+    font-size: 45px;
+  }
+
+  .skills-list {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .skills-item {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills h2 {
+    font-size: 35px;
+  }
+
+  .skills-item {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+
+.html-icon {
+  color: #e34c26;
+}
+
+.css-icon {
+  color: #264de4;
+}
+
+.js-icon {
+  color: #f0db4f;
+}
+
+.react-icon {
+  color: #61dafb;
+}
+
+.php-icon {
+  color: #787cb5;
+}
+
+.database-icon {
+  color: #2e3fff;
+}
+
+.python-icon {
+  color: #306998;
+}

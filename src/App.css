@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding-top: 60px; /* To account for fixed navbar height */
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.home, .about, .projects, .contact {
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Additional styles */
+
