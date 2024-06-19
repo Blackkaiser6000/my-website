@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.c31549e5.css",
+    "main.js": "/my-website/static/js/main.e7c56159.js",
+    "static/js/488.9e1141ec.chunk.js": "/my-website/static/js/488.9e1141ec.chunk.js",
+    "static/media/SFSWSA.png": "/my-website/static/media/SFSWSA.b3b3170f5bc021630600.png",
+    "index.html": "/my-website/index.html",
+    "main.c31549e5.css.map": "/my-website/static/css/main.c31549e5.css.map",
+    "main.e7c56159.js.map": "/my-website/static/js/main.e7c56159.js.map",
+    "488.9e1141ec.chunk.js.map": "/my-website/static/js/488.9e1141ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c31549e5.css",
+    "static/js/main.e7c56159.js"
+  ]
+}
