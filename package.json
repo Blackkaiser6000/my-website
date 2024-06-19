@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
- "homepage": "https://Blackkaiser6000.github.io/my-website"
+  "homepage": "https://blackkaiser6000.github.io/my-website/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
